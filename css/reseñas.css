@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-resenia h2{
+    margin: 30px 0;
+    text-transform: capitalize;
+}
+.resenias-container{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding: min(50px, 7%);
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5px;
+    justify-content: center;
+}
+
+.card-resenia{
+    padding: 2em;
+    background-color: rgba(46, 43, 43, 0.568);
+    border: 1px solid rgb(75, 82, 92);
+    border-radius: 10px;
+}
+
